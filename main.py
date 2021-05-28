@@ -24,7 +24,7 @@ try:
                 listusers.append(userId)
         return listusers
 
-    os.system('clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
     BANNER()
 
     client = amino.Client()
