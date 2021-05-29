@@ -109,7 +109,7 @@ try:
                 try:
                     sub_client.invite_to_chat(userId = userId,chatId = chatId)
                     cpt = cpt + 1
-                    print(cpt , "\033[1;93m ) \033[1;92m- \033[1;93muser id\033[1;92m =\033[0m ",userId)
+                    print(cpt , "\033[1;93m | \033[1;92m- \033[1;93muser id\033[1;92m =\033[0m ",userId)
 
                 except:
                     ffffff = True
@@ -168,7 +168,7 @@ try:
                 try:
                     sub_client.invite_to_chat(userId = userId,chatId = chatId)
                     cpt = cpt + 1
-                    print("\n", cpt , "\n\033[1;93m ) \033[1;92m-\033[1;93m user id \033[1;92m= \033[0m",userId)
+                    print("\n", cpt , "\n\033[1;93m | \033[1;92m-\033[1;93m user id \033[1;92m= \033[0m",userId)
 
                 except:
                     ffffff = True
